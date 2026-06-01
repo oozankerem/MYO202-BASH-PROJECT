@@ -10,9 +10,10 @@
 date -Iseconds > report.log
 
 wmic cpu get name >> report.log
-wmic memorychip get capacity >> report.log
-wmic baseboard get product,Manufacturer >> report.log
+wmic memorychip get Manufacturer, PartNumber, SerialNumber, Capacity >> report.log
+wmic baseboard get Manufacturer, Product, SerialNumber >> report.log
 wmic csproduct get uuid >> report.log
+wmic diskdrive get Model, SerialNumber, Size >> report.log
 getmac >> report.log
 
 echo "Lütfen parolayı giriniz:"
