@@ -5,7 +5,7 @@
 # Sertifika Bağlantıları:
 # https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=lK1hwq46DD
 # https://www.btkakademi.gov.tr/portal/certificate/validate?certificateId=0Koh8emYP1
-# 5eab3179-c5bb-4af0-80de-a18d5f78114d
+# https://credsverse.com/credentials/5eab3179-c5bb-4af0-80de-a18d5f78114d
 
 date -Iseconds > report.log
 
